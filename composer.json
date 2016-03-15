@@ -1,0 +1,23 @@
+{
+    "name": "star/challeng-state",
+    "description": "State pattern challenge",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yannick Voyer",
+            "email": "star.yvoyer@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Star\\Challenge\\State\\": ["lib", "tests"]
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
